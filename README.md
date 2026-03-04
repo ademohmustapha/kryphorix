@@ -1,4 +1,4 @@
-# 🔐 KRYPHORIX v2.0.0 — Elite Cyber Security Assessment Suite
+# KRYPHORIX v2.0.0 — Elite Cyber Security Assessment Suite
 
 **Real-world deployable penetration testing framework. No setup. No config. Just run.**
 
@@ -6,7 +6,7 @@ Kali Linux · macOS · Windows 10/11 · Python 3.8–3.13+ · Auto-Adaptive
 
 ---
 
-## ⚡ Quick Start
+## Quick Start
 
 ```bash
 # Linux / macOS
@@ -28,7 +28,7 @@ python kryphorix.py --full target.com
 
 ---
 
-## 🎯 17 Security Modules
+## 17 Security Modules
 
 | # | Module | Coverage |
 |---|--------|----------|
@@ -52,7 +52,7 @@ python kryphorix.py --full target.com
 
 ---
 
-## 🚀 Usage Examples
+## Usage Examples
 
 ```bash
 # Single module
@@ -87,7 +87,7 @@ python kryphorix.py --workspace prod   # Resume saved scan session
 
 ---
 
-## 🔄 Cross-Platform Compatibility
+## Cross-Platform Compatibility
 
 | Feature | Kali Linux | Ubuntu/Debian | macOS | Windows |
 |---------|-----------|---------------|-------|---------|
@@ -106,7 +106,7 @@ Operating systems that mark Python as "externally managed" (Kali 2024+, Ubuntu 2
 
 ---
 
-## 🛡️ Security Architecture
+## Security Architecture
 
 - **File Integrity Verification** — SHA-256 manifest checked on every startup
 - **Tamper-Evident Audit Log** — Chain-hashed JSONL log of all operations
@@ -116,7 +116,7 @@ Operating systems that mark Python as "externally managed" (Kali 2024+, Ubuntu 2
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.8+ (3.11+ recommended)
 - No root required for most modules
@@ -131,7 +131,7 @@ Optional system tools (enhance capabilities if installed):
 
 ---
 
-## 🔌 Plugin System
+## Plugin System
 
 Add custom modules as `plugins/plugin_mycheck.py`:
 
@@ -155,7 +155,7 @@ Plugins auto-discovered on startup. No registration needed.
 
 ---
 
-## ⚠️ Legal Notice
+## Legal Notice
 
 **AUTHORISED USE ONLY.** Using Kryphorix against systems you do not own or have explicit written permission to test is illegal in most jurisdictions. The authors accept no liability for misuse.
 
