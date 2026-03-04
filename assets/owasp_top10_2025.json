@@ -1,0 +1,52 @@
+{
+  "A01": {
+    "title": "Broken Access Control",
+    "id": "A01:2025",
+    "cwe": "CWE-284"
+  },
+  "A02": {
+    "title": "Cryptographic Failures",
+    "id": "A02:2025",
+    "cwe": "CWE-310"
+  },
+  "A03": {
+    "title": "Injection",
+    "id": "A03:2025",
+    "cwe": "CWE-89"
+  },
+  "A04": {
+    "title": "Insecure Design",
+    "id": "A04:2025",
+    "cwe": "CWE-657"
+  },
+  "A05": {
+    "title": "Security Misconfiguration",
+    "id": "A05:2025",
+    "cwe": "CWE-16"
+  },
+  "A06": {
+    "title": "Vulnerable & Outdated Components",
+    "id": "A06:2025",
+    "cwe": "CWE-1035"
+  },
+  "A07": {
+    "title": "Auth & Identity Failures",
+    "id": "A07:2025",
+    "cwe": "CWE-287"
+  },
+  "A08": {
+    "title": "Software & Data Integrity",
+    "id": "A08:2025",
+    "cwe": "CWE-829"
+  },
+  "A09": {
+    "title": "Security Logging Failures",
+    "id": "A09:2025",
+    "cwe": "CWE-778"
+  },
+  "A10": {
+    "title": "SSRF",
+    "id": "A10:2025",
+    "cwe": "CWE-918"
+  }
+}

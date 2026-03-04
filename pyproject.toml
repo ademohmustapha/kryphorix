@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "kryphorix"
+version = "2.0.0"
+description = "Elite Cyber Security Assessment Suite — 17-module penetration testing framework"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+keywords = ["security", "penetration-testing", "pentest", "vulnerability", "cybersecurity", "osint"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Console",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Security",
+]
+
+dependencies = [
+    "requests>=2.31.0,<3.0",
+    "rich>=13.7.0,<14.0",
+    "reportlab>=4.0.0,<5.0",
+    "Pillow>=10.0.0,<12.0",
+    "cryptography>=41.0.0,<46.0",
+    "beautifulsoup4>=4.12.0,<5.0",
+    "colorama>=0.4.6,<1.0",
+    "tabulate>=0.9.0,<1.0",
+    "dnspython>=2.4.0,<3.0",
+    "paramiko>=3.3.0,<4.0",
+    "PyYAML>=6.0.0,<7.0",
+    "lxml>=4.9.0,<6.0",
+    "Jinja2>=3.1.0,<4.0",
+]
+
+[project.optional-dependencies]
+full = [
+    "pyOpenSSL>=23.0.0,<25.0",
+    "python-whois>=0.8.0,<1.0",
+    "ldap3>=2.9.1,<3.0",
+    "python-nmap>=0.7.1,<1.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/ademohmustapha/kryphorix"
+Issues = "https://github.com/ademohmustapha/kryphorix/issues"
+
+[project.scripts]
+kryphorix = "kryphorix_entry:main"
+
+[tool.setuptools.packages.find]
+include = ["core*", "modules*", "plugins*"]
